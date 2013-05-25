@@ -1,4 +1,3 @@
-
 #include "DetectNumbers.h"
 
 #include <string>
@@ -6,7 +5,7 @@
 int main()
 {
 	namespace T = cvTech; 
-	std::string path("/home/vardan/OpenCV-2.3.1/samples/cpp/opencv_tesseract/index.png");
+	std::string path("/home/vardan/opencv_cods/opencv_tesseract/index.png");
 	T::cvDetection* d = new T::cvDetection(path, 100, 200 );
 	assert(d != 0);
 	cv::Mat dst;
